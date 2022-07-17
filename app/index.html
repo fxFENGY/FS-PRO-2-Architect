@@ -9,53 +9,60 @@
     <title>Mobile first app</title>
 </head>
 <body>
-    <header class="header container">
-        <img class="header__menu-button" src="./images/menu-button.svg" alt="menu-button">
-        <ul class="header__menu header__menu-mobile hidden">
-            <li class="header__menu-item current">Home</li>
-            <li class="header__menu-item">about us</li>
-            <li class="header__menu-item">our journal</li>
-            <li class="header__menu-item">projects</li>
-            <li class="header__menu-item">news</li>
-            <li class="header__menu-item">features</li>
-            <li class="header__menu-item">contact</li>
-        </ul>
-    </header>
-    <img class="intro-image" src="./images/intro-img.png" alt="Intro Image">
-    <div class="posts__wrapper container">
-        <h2 class="posts__title">our Recent posts</h2>
-        <div class="posts__list">
-            <!-- Generate in Javascript -->
-            <!--            <div class="posts__item">-->
-<!--                <img src="./images/posts/img-1.png" alt="Post 1">-->
-<!--                <h3>Aenean Adipiscing Etiam Vestibulum</h3>-->
-<!--                <p>Photography, Journal / <span>9 Comments</span></p>-->
-<!--            </div>-->
-        </div>
-    </div>
-    <div class="instagram-posts__wrapper container">
-        <div class="instagram-posts__text">
-            <h2 class="instagram-posts__title">Last Instagram Shot</h2>
-            <h2 class="instagram-posts__link">go to our instagram page</h2>
-        </div>
-        <div class="instagram-posts__list">
-            <!-- Generate in Javascript -->
-<!--            <img class="instagram-posts__item" src="./images/instagram-posts/img-1.png" alt="Instagram Post 1">-->
-        </div>
-    </div>
-    <footer class="footer container">
-        <h2 class="footer__title">get in touch with us</h2>
-        <p class="footer__description">Maecenas faucibus molli interdum. Cras mattis consectetur purus sitor amet sed donec malesuada ullamcorper odio. </p>
-        <div class="social__wrapper">
-            <img class="social__item" src="./images/social/rss-icon.png" alt="RSS">
-            <img class="social__item" src="./images/social/facebook_icon.png" alt="Facebook">
-            <img class="social__item" src="./images/social/twitter-icon.png" alt="Twitter">
-            <img class="social__item" src="./images/social/dribbble-icon.png" alt="Dribbble">
-            <img class="social__item" src="./images/social/pinterest-icon.png" alt="Pinterest">
-        </div>
-        <p class="footer__address"> Moonshine St. 14-05 Light City <span>T. +00 (123) 456 78 90</span> <span>first.last@email.com</span></p>
-    </footer>
 
-    <script src="./js/script.js"></script>
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <img class="navbar__logo-img" src="" alt="">
+            <h1 class="navbar__logo-text"></h1>
+        </div>
+        <div class="navbar__menu">
+            <a class="navbar__menu-link" href="">hover</a>
+            <a class="navbar__menu-link" href="">Home </a>
+            <a class="navbar__menu-link" href="">Architecture design</a>
+            <a class="navbar__menu-link" href="">Strange Buildings</a>
+            <a class="navbar__menu-link" href="">MAGAZINE</a>
+            <a class="navbar__menu-link" href="">BLOG</a>
+        </div>
+
+    </nav>
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-img" src="" alt="">
+            <h1 class="header__logo-text"></h1>
+        </div>
+        <div class="header__menu">
+            <a class="header__menu-link" href="">hover</a>
+            <a class="header__menu-link" href="">Home </a>
+            <a class="header__menu-link" href="">Architecture design</a>
+            <a class="header__menu-link" href="">Strange Buildings</a>
+            <a class="header__menu-link" href="">MAGAZINE</a>
+            <a class="header__menu-link" href="">BLOG</a>
+        </div>
+    </header>
+
+    <section class="news">
+        <h2 class="news__title"></h2>
+        <div class="news__card-wrapper">
+            <img class="news__card-img" src="" alt="">
+            <p class="news__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, suscipit voluptates ex dignissimos recusandae cupiditate voluptatem veniam voluptate voluptas pariatur, mollitia ea dolor non error? Earum dignissimos sint ipsam qui?
+
+            </p>
+        </div>
+    </section>
+
+    <section class="clients">
+        <h2 class="clients__title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum blanditiis animi, itaque reiciendis delectus officiis quia quibusdam quos nobis amet ducimus! Illo facere quasi magnam ab exercitationem repellendus excepturi dolor.</h2>
+        <div class="line"></div>
+        <div class="clients__logo-wrapper">
+            <img class="clients__logo" src="" alt="">
+            <img class="clients__logo" src="" alt="">
+            <img class="clients__logo" src="" alt="">
+            <img class="clients__logo" src="" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="clients__copyright"></p>
+    </footer>
 </body>
 </html>
