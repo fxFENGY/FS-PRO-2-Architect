@@ -1,1 +1,13 @@
 @import "../constants";
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  &__menu{
+    padding: 10px;
+    background-color: grey;
+    text-transform: uppercase;
+  }
+}
+
